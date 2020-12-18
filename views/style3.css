@@ -1,0 +1,252 @@
+body{
+	background: #65CCB8;
+
+}
+.nav-item .nav-link{
+	font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0.165em;
+text-align: center;
+color: #000000;
+height: 29px;
+width: 128px;
+left: 1264px;
+top: 19px;
+border-radius: undefinedpx;
+
+}
+.site-main .site-banner .site-title p{
+	font-family: Abril Fatface;
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: 97px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+height: 68px;
+width: 920px;
+left: 69px;
+top: 34px;
+border-radius: undefinedpx;
+color: #46344E;
+
+}
+input[type=text], select {
+	height: 50px;
+width: 95%;
+left: 323px;
+top: 266px;
+border-radius: 0px;
+background: #C4C4C4;
+
+}
+
+input[type=password], select {
+	height: 50px;
+width: 95%;
+left: 323px;
+top: 266px;
+border-radius: 0px;
+background: #C4C4C4;
+
+}
+input[type=submit] {
+  width: 100%;
+  height: 80px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 0px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container-about {
+	height: 400px;
+width: 70%;
+left: 69px;
+top: 195px;
+border-radius: 0px;
+background: #57BA98;
+margin: auto;
+margin-top: 80px;
+
+
+}
+label {
+
+  display: inline-block;
+ font-family: Abril Fatface;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+height: 32px;
+width: 200px;
+padding-left: 30px;
+padding-bottom: 50px;
+padding-top: 62px;
+left: 107px;
+top: 266px;
+border-radius: nullpx;
+color: #000000;
+
+}
+.col-30 {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+}
+
+.col-70 {
+  float: left;
+  width: 70%;
+  margin-top: 70px;
+  padding-right: 1px;
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media only screen and (max-width: 750px) {
+  .col-30, .col-70 {
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    height: 80%;
+
+  }
+  @media only screen and (max-width: 750px){
+  .container-about {
+  	width:100%;
+  	height: 90%;
+  	margin:auto;
+    align-items:center;
+    justify-content: center;
+    margin-left: 220px;
+    margin-top: 50px;}
+  @media only screen and (max-width: 750px){  
+    input[type=text], select {
+  height: 50px;
+width: 90%;
+left: 323px;
+top: 266px;
+border-radius: 0px;
+background: #C4C4C4;
+margin-left: 30px;
+
+}
+  
+@media only screen and (max-width: 750px){ 
+input[type=password], select {
+  height: 50px;
+width: 90%;
+left: 323px;
+top: 266px;
+border-radius: 0px;
+background: #C4C4C4;
+margin-left: 30px;
+}
+@media only screen and (max-width: 750px){ 
+  label {
+
+  
+ font-family: Abril Fatface;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+height: 32px;
+width: 200px;
+padding-left: 30px;
+padding-bottom: 30px;
+padding-top: 30px;
+border-radius: nullpx;
+color: #000000;
+
+}
+@media only screen and (max-width: 750px){ 
+input[type=submit] {
+  width: 100%;
+  height: 120px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 0px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+ 
+ @media only screen and (max-width: 450px) {
+  .col-30, .col-70 {
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    height: 80%;
+
+  }
+  @media only screen and (max-width: 450px){
+  .container-about {
+    width:150%;
+    height: 250%;
+    
+    align-items:center;
+    justify-content: center;
+    margin-left: 190px;
+    margin-right: 300px;
+
+    margin-top: 50px;
+    margin-right: 0px;}
+  @media only screen and (max-width: 450px){  
+    input[type=text], select {
+  height: 50px;
+width: 90%;
+left: 323px;
+top: 266px;
+border-radius: 0px;
+background: #C4C4C4;
+margin-left: 30px;
+
+}
+  
+@media only screen and (max-width: 450px){ 
+input[type=password], select {
+  height: 50px;
+width: 90%;
+left: 323px;
+top: 266px;
+border-radius: 0px;
+background: #C4C4C4;
+margin-left: 30px;
+}}
+
+
+ 
