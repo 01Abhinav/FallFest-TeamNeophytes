@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const app = express();
 const port = 3000;
 
+app.use(express.static("./public"));
 // create application/json parser
 app.use(bodyParser.json());
 
@@ -13,11 +14,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
-app.use(express.static("./public"));
 
 app.get("/", (req, res) => {
   const sumBeds = 85;
-
   res.render("index", { totalBeds: sumBeds, totalVentilators: 40 });
 });
 

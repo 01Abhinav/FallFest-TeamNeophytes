@@ -1,15 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WnD</title>
-    <link rel="stylesheet" href="style.css" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <title>Hospitality</title>
+    <style>
+      .navbar {
+        left: 0px;
+        top: 0px;
+
+        background: #57ba98;
+      }
+
+      .navbar-brand {
+        color: black;
+
+        font-family: Abril Fatface;
+
+        font-size: 45px;
+      }
+
+      .navbar-nav {
+        margin-left: auto;
+      }
+
+      .mybg {
+        background: #65ccb8;
+        height: 500px;
+      }
+
+      .foot {
+        height: 188px;
+        left: 0px;
+        background: #3b945e;
+      }
+      .foot p {
+        font-family: Montserrat;
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #ffffff;
+      }
+      .rec{
+        position: absolute;
+        width: 516px;
+        height: 439px;
+        left: 900px;
+        top: 115px;
+
+        background: #182628;
+        
+      }
+      
+      .com{
+        position: absolute;
+        width: 516px;
+        height: 124px;
+        left: calc(50% - 516px/2);
+        top: 130px;
+
+        font-family: Abril Fatface;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 49px;
+        text-align: left;
+        padding-left: 20px;
+
+        color: #F2F2F2;
+
+      }
+    </style>
   </head>
   <body>
-    <h1>Wards and Doctors</h1>
-    <div><%= totalBeds %></div>
-    <div><%= totalVentilators %></div>
-    <a href="/add">Add a new hospital</a>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span style=color:#46344E>W&D</span><span id="text1">System</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-auto">
+  
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><span style=color:black>Login</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active " href="/add"><span style=color:black>SignUp</span></a>
+            </li>
+  
+          </ul>
+  
+        </div>
+      </div>
+    </nav>
+    <div class="mybg">
+      <div class="rec">
+        <div class="com">
+          <div class="tot">Total Beds Available <span style=color:#57BA98><%= totalBeds %></span></div>
+          <div class="tot">Total Ventilators available <span style=color:#57BA98> <%= totalVentilators %></span></div>
+        </div>
+        
+      </div>
+    </div>
+  
+    <div class="foot">
+      <p >contact Us</p>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous">
+    </script>
+    
   </body>
 </html>
