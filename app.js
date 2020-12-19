@@ -31,6 +31,28 @@ app.post("/add", (req, res) => {
   res.redirect("/");
 });
 
+app.get("/update", (req, res) => {
+  res.render("update");
+});
+
+app.post("/update", (req, res) => {
+  // add to database
+  console.log(req.body);
+
+  res.redirect("/");
+});
+
+app.get("/login", (req, res) => {
+  res.render("login");
+});
+
+app.post("/login", (req, res) => {
+  // add to database
+  console.log(req.body);
+
+  res.redirect("/");
+});
+
 app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}`);
 });
